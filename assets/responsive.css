@@ -138,7 +138,7 @@
 		}
 		
 		#navbar { 
-			position: absolute
+			position: absolute;
 			top: 0; 
 			height: 100px; 
 			width: 100%; 
@@ -226,4 +226,36 @@ div.history	{
 
 				width: 25%;
 			}
+			
+/* big numbers */ 
+
+div.list {
+  width: 500px;
+  margin: 20px auto;
+}
+
+/* list styles */
+
+ol {
+  list-style: none;
+  color: #DEE2FF;
+}
+
+ol li.listli {
+  font: bold 24pt helvetica, arial, sans-serif;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+li.listli p {
+  font: 12pt helvetica, arial, sans-serif;
+  color: #DEE2FF;
+  padding-left: 60px;
+}
+
+span {
+  position: absolute;
+  line-height: 25px;
+}
+  
 			
